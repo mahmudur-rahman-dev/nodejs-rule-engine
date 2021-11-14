@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  worker:
+    image: dip-rule-engine
+    ports:
+     - '5000:5000'
+    extra_hosts:
+      es.dip.ntmc.gov.bd: 10.101.17.131
+      redis.dip.ntmc.gov.bd: 10.101.17.140
+    container_name: dip-rule-engine

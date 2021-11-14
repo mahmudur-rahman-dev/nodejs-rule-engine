@@ -1,0 +1,27 @@
+{
+    "backendApi" : {
+        "baseUrl": "http://dip-query-service",
+        "baseUrlSocket":"http://10.101.17.108",
+        "apiPort": "5005",
+        "suffixUrl":"/query-service/api/v1/private/discovery/search-data/",
+        "socketPort": "8088",
+        "mnoURL":"http://dip-enquerer:6060/enqueuer/api/v1/private/mno",
+        "smsPath":"sms",
+        "cdrPath":"cdr",
+        "esafPath":"esaf",
+        "nidPath": "nid",
+        "passportPath": "passport",
+        "drivingLicensePath": "driving-license",
+        "vehicleRegistrationPath": "vehicle-registration",
+        "birthRegistrationPath": "birth-registration",
+        "deviceInformationPath" : "device-information",
+        "caseManagementServiceBaseUrl": "http://dip-case-management:8585/case-management/api/v1/private/cases",
+        "unifiedViewerSearchByDiscoveryIdPath": "/unified-viewer/search-by-discovery-id",
+        "caseManagementServiceUnifiedViewerCreationURLPath": "/unified-viewer"
+    },
+    "storage": {
+        "redisHost": "10.101.17.140",
+        "redisPort": 6379,
+        "redisPassword": "a-very-complex-password-here"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "rule_engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "(server.js)",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "convict": "^6.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "git-repo-info": "^2.1.1",
+    "json-rules-engine": "^6.1.2",
+    "jsonpath-plus": "^6.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "redis": "^3.1.2",
+    "socket.io-client": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pentaglobalsltd/rule_engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pentaglobalsltd/rule_engine/issues"
+  },
+  "homepage": "https://github.com/pentaglobalsltd/rule_engine#readme"
+}

@@ -1,0 +1,17 @@
+const RequestTypes = 
+{
+    ESAF : 'ESAF',
+    PASSPORT : 'PASSPORT',
+    NID : 'NID',
+    DRIVINGLICENSE : 'DRIVINGLICENSE',
+    CDR : 'CDR',
+    SMS : 'SMS',
+    LRL : 'LRL',
+    VEHICLEREGISTRATION : 'VEHICLEREGISTRATION',
+    BIRTHREGISTRATION : 'BIRTHREGISTRATION',
+    DEVICEINFORMATION : 'MOBILE_DEVICE_INFORMATION'
+};
+
+module.exports = {
+    RequestTypes
+}
